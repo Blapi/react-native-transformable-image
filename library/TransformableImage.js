@@ -1,9 +1,14 @@
 'use strict';
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { Image } from 'react-native';
 
 import ViewTransformer from 'react-native-view-transformer';
+
+let PropTypes = null;
+
+// eslint-disable-next-line
+PropTypes = require('prop-types');
 
 let DEV = false;
 
